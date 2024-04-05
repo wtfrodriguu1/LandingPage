@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+/* Reset de página */
+
+footer {
+    background-color: rgb(255, 189, 67);
+}
+
+/* define uma cor de fundo */
+
+li {
+    font-weight: bold;
+}
+
+/* bold serve para deixar texto em negrito */
+
+
+ul {
+    list-style: none;
+}
+
+/* lista não ordenada */
+
+
+
+header {
+    background-color: rgb(255, 189, 67);
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    padding: 0 1rem;
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* barra cinza abaixo do nav */
+.desconto {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    height: 5vh;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-family: Arial, sans-serif;
+    margin-top: 1.5vh;
+
+}
+
+h1 {
+    margin-top: 35vh;
+    margin-left: 19vw;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#paragrafo1 {
+    display: flex;
+    margin-top: 45vh;
+    margin-left: -27vw;
+    font-size: 30px;
+    margin-right: 6vw;
+    text-align: justify;
+    width: 35%;
+}
+
+#ofertasbotao{
+    background-color: rgb(255, 189, 67);
+    margin-top: 60vh;
+    width: 10%;
+    height: 50px;
+    margin-left: -27vw;
+    border-radius: 5px;
+}
+
+/* texto barra cinza */
+
+#barrapesquisa {
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    height: 5vh;
+}
+
+#inicio {
+    width: 50%;
+}
+
+#divimg {
+    display: flex;
+    transition: 0.5
+}
+
+
+#sobre {
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    height: 105vh;
+}
+
+#psobre {
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 33vh;
+    margin-left: 20vw;
+}
+
+#logo {
+    margin-top: 30vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 50vw;
+    height: 50vh;
+}
+
+#textsobre {
+    margin-top: 45vh;
+    margin-left: -20vw;
+    margin-right: 5vw;
+    font-size: 30px;
+    text-align: justify;
+}
+
+#populares {
+    display: flex;
+    justify-content: center;
+    height: 105vh;
+    background-color: rgb(255, 255, 240);
+}
+
+#mpopulares {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 5vh;
+}
+
+#fiqueligado{
+    font-size: 50px;
+    display: flex;
+    font-weight: bold;
+}
+
+#formulario{
+    display: flex;
+    height: 105vh;
+}
+
+#textfiqueligado{
+    font-size: 20px;
+    margin-top: 3vh;
+    text-align: justify;
+}
+
+#esquerdafiqueligado{
+    margin-left: 7vw;
+    margin-top: 45vh;
+    width: 35%;
+}
+
+#direitafiqueligado{
+    margin-left: 10vw;
+    margin-top: 50vh;
+}
+#enviar{
+    background-color: rgb(255, 189, 67);
+    margin-top: 60vh;
+    width: 80px;
+    height: 50px;
+    margin-left: -39.5vw;
+    border-radius: 5px;
+}
+
+#preencher{
+    height: 4vh;
+    border-radius: 5px;
+    padding: 5px;
+}
+#preencheremail{
+    height: 4vh;
+    border-radius: 5px;
+    width: 20vw;
+    padding: 5px;
+}
+
+
+#rodape{
+
+    background-color: rgb(255, 189, 67);
+    height: 90vh;
+    justify-content: space-around;
+}
+
+#conhecamais{
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 25vh;
+    margin-left: 2vw;
+
+}
+#logoabaixo{
+    font-size: 20px;
+    margin-top: 5vh;
+    width: 80%;
+    margin-left: 2vw;
+}
+
+#imgfooter{
+    margin-left: -15vw;
+    margin-top: 10vh;
+}
+
+#footer1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#redessociais{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4vh;
+}
+
+#direitosreservados{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#facebook{
+    width: 6vw;
+    height: 10vh;
+    margin-top: 8vh;
+}
+#x{
+    width: 8vw;
+    height: 8vh;
+    margin-top: 10vh;
+}
+
+
+
+
+
+
+
+
